@@ -407,7 +407,7 @@ background-image: linear-gradient(45deg, rgb(255, 3, 28) 0%, rgb(255, 0, 25) 1%,
 }
 
 .objectives .white {
-    background-color: whitesmoke;
+    background-color: #72ffff;
     color: black;
 }
 
@@ -424,9 +424,10 @@ background-image: linear-gradient(45deg, rgb(255, 3, 28) 0%, rgb(255, 0, 25) 1%,
     cursor: pointer;
     transition: 400ms;
     font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 700;
     font-family: cursive;
-    border: 2px solid rgb(166, 166, 166);
+    /* border: 2px solid rgb(166, 166, 166); */
+    filter: drop-shadow(4px 4px 6px #2f3168);
     /* background-image:url("pic/community.jpg"); */
     /* background-size: cover; */
 }
@@ -951,6 +952,10 @@ background-image: linear-gradient(45deg, rgb(255, 3, 28) 0%, rgb(255, 0, 25) 1%,
     margin-top: 20px;
     margin-left: 7px;
     text-decoration: none;
+}
+.site{
+    cursor: pointer;
+    color: black;
 }
 
 @media (max-width: 900px) {
